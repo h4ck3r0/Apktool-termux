@@ -3,6 +3,7 @@ echo -e "\e[1;34m[+] \e[32m installing packages \e[0m"
 echo -e "\e[8m"
 apt update && apt upgrade
 pkg install aapt
+pkg install wget
 clear
 echo "*--------------------------------------+"
 echo -e "\e[1;34m[*] \e[1;31m apktool 2.4.1 by H4Ck3R \e[0m"
