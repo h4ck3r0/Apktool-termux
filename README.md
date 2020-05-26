@@ -15,4 +15,10 @@ Latest apktool 2.4.1 for termux by H4Ck34
 •U get java error
 •So type proot -0
 •Then run apktool
- 
+
+message me on telegram for fastest reply
+
+
+https://t.me/termux_coding
+youtube - 
+https://m.youtube.com/channel/UCxWENJ2Y3sXhFWs8UewLn7A?sub_confirmation=1
