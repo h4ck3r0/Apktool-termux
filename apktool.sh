@@ -1,9 +1,4 @@
-echo -e "\e[1;34m[*] \e[32minstall packages....\e[0m";
-apt update && apt upgrade
-pip3 install gem
-gem install lolcat
-pkg install wget curl -y
-clear 
+
 banner ( ) { 
                   random
                   toilet -F border -f mono12  "Apktool"  | lolcat
