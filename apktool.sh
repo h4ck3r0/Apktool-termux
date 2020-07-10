@@ -13,6 +13,8 @@ banner ( ) {
                                Apktool() {
                                                  cd files
                                                  apt install ./apktool.deb
+                                                 cd ..
+                                                 bash apktool.sh
                                                  }
                                                  Java() {
                                                                cd files
