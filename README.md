@@ -8,7 +8,7 @@
 Latest apktool 2.4.1 for termux by H4Ck34
 
 # installation
-  git clone https://github.com/h4ck3r0/apktool-termu
+  git clone https://github.com/h4ck3r0/apktool-termux
  
   bash setup.sh
  
