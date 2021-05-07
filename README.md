@@ -42,8 +42,3 @@ message me on telegram for fastest reply
 
 https://t.me/termux_coding
 
-Tutorial to bind payload error fixed
-https://youtu.be/UExgWaIP9B0
-
-youtube - 
-https://m.youtube.com/channel/UCxWENJ2Y3sXhFWs8UewLn7A?sub_confirmation=1
