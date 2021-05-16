@@ -12,7 +12,7 @@ banner ( ) {
                                }
                                Apktool() {
                                                  cd files
-                                                 apt install ./apktool.deb
+                                                 apt install ./apktool1.deb
                                                  cd ..
                                                  bash apktool.sh
                                                  }
