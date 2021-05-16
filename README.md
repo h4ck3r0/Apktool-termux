@@ -16,9 +16,11 @@
 
 
 # apktool-termux
+
 Latest apktool 2.4.1 for termux by H4Ck34
 
-# installation
+# Installation
+
   git clone https://github.com/h4ck3r0/apktool-termux
  
   bash setup.sh
@@ -26,8 +28,12 @@ Latest apktool 2.4.1 for termux by H4Ck34
   bash apktool.sh
 
 
+
 # credit
+
  Script by H4Ck34 (Raj Aryan)
+ apktool 
+ 
 # error
 •If u using android 8+
 
