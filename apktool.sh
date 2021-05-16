@@ -1,6 +1,6 @@
 
 banner ( ) { 
-                  random
+                  
                   toilet -F border -f mono12  "Apktool"  | lolcat
                   printf ""
                   printf "\e[1;34m[*] \e[1;96mcreated by \e[1;33m Raj Aryan ( @h4ck3r_0 )\e[0m"
