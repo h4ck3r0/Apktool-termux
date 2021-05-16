@@ -29,12 +29,12 @@ Latest apktool 2.4.1 for termux by H4Ck34
 
 
 
-# credit
+# Credit
 
  Script by H4Ck34 (Raj Aryan)
  apktool 
  
-# error
+# Error Solve
 •If u using android 8+
 
 •U get java error
