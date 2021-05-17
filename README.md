@@ -35,7 +35,10 @@ Version : 2.5.0
 # Credit
 
  Script by H4Ck34 (Raj Aryan)
+ 
  apktool 
+ 
+ Java (hax4us)
  
 # Error Solve
 •If u using android 8+
