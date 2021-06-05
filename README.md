@@ -51,6 +51,6 @@ Version : 2.5.0
 
 message me on telegram for fastest reply
 
-
-https://t.me/termux_coding
+Youtube = H4Ck3r
+https://t.me/termuxCoding
 
