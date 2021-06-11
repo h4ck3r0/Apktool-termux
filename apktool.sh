@@ -13,16 +13,18 @@ banner ( ) {
                                Apktool() {
                                                  cd files
                                                  apt install ./apktool1.deb
-                                                 cd ..
-                                                 bash apktool.sh
+                                                 
+                                                 cd ~/Apktool-termux ; bash apktool.sh
+                                                 
                                                  }
                                                  Java() {
                                                                cd files
                                                                bash java.sh
+                                                               cd ~/Apktool-termux ; bash apktool.sh
                                                                }
                                                                
                                  selection () {
-                                            cd ~/apktool-termux
+                                            cd ~/Apktool-termux
                                             echo -e -n "\e[1;96m Apktool\e[1;96m Termux : \e[0m"
                                             read a
                                             case $a in
