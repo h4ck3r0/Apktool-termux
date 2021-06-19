@@ -50,7 +50,7 @@ Version : 2.5.0
 * `bash setup.sh`
 * `bash apktool.sh`
 ```
-[+]-- Open new session in termux and Check banner 
+[+]-- Open new session in termux and Type apktool
 ```
 
 
@@ -63,6 +63,7 @@ Version : 2.5.0
  Java (hax4us)
  
 # Error Solve
+```
 •If u using android 8+
 
 •U get java error
@@ -71,7 +72,7 @@ Version : 2.5.0
 
 •Then run apktool
 
-
+```
 ## CONNECT WITH US :
 
 <a href="https://github.com/h4ck3r0"><img title="Github" src="https://img.shields.io/badge/H4Ck3R-Raj-brightgreen?style=for-the-badge&logo=github"></a>
