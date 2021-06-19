@@ -71,7 +71,6 @@ Version : 2.5.0
 •So type proot -0
 
 •Then run apktool
-
 ```
 ## CONNECT WITH US :
 
