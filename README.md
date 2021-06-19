@@ -15,21 +15,43 @@
 </p>
 
 
-# apktool-termux
+### Aapktool-termux
 
 Latest apktool 2.5.0 for Termux by H4Ck34
 
 Version : 2.5.0 
 
 
-# Installation
+### AVAILABLE ON :
 
-  git clone https://github.com/h4ck3r0/apktool-termux
- 
-  bash setup.sh
- 
-  bash apktool.sh
+* Termux
 
+### REQUIREMENTS :
+
+* Java
+
+
+### FEATURES :
+* [+] Latest Apktool !
+* [+] Java  !
+* [+] Error Fix !
+* [+] Fully Automatic !
+* [+] Easy for Beginners !
+
+## INSTALLATION [Termux] :
+
+* `apt-get update -y`
+* `apt-get upgrade -y`
+* `git clone https://github.com/h4ck3r0/Apktool-termux`
+* `cd $HOME`
+* `ls`
+* `cd Apktool-termux`
+* `chmod +x *`
+* `bash setup.sh`
+* `bash apktool.sh`
+```
+[+]-- Open new session in termux and Check banner 
+```
 
 
 # Credit
@@ -49,8 +71,12 @@ Version : 2.5.0
 
 •Then run apktool
 
-message me on telegram for fastest reply
 
-Youtube = H4Ck3r
-https://t.me/termuxCoding
+## CONNECT WITH US :
+
+<a href="https://github.com/h4ck3r0"><img title="Github" src="https://img.shields.io/badge/H4Ck3R-Raj-brightgreen?style=for-the-badge&logo=github"></a>
+[![Instagram](https://img.shields.io/badge/INSTAGRAM-FOLLOW-red?style=for-the-badge&logo=instagram)](https://rebrand.ly/loginx202266fb40)
+[![Instagram](https://img.shields.io/badge/WEBSITE-VISIT-yellow?style=for-the-badge&logo=blogger)](https://rebrand.ly/h4ck3r-5064aa)
+[![Instagram](https://img.shields.io/badge/TELEGRAM-CHANNEL-red?style=for-the-badge&logo=telegram)](https://rebrand.ly/termuxcoding3d8527)
+<a href="https://rebrand.ly/7elzgww"><img title="YouTube" src="https://img.shields.io/badge/YouTube-H4Ck3R-red?style=for-the-badge&logo=Youtube"></a>
 
