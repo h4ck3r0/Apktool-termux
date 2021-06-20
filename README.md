@@ -17,9 +17,9 @@
 
 ### Aapktool-termux
 
-Latest apktool 2.5.0 for Termux by H4Ck34
+* [-] Latest apktool 2.5.0 for Termux by H4Ck34
 
-Version : 2.5.0 
+* [-] Version : 2.5.0 
 
 
 ### AVAILABLE ON :
@@ -56,11 +56,11 @@ Version : 2.5.0
 
 # Credit
 
- Script by H4Ck34 (Raj Aryan)
+* Script by H4Ck34 (Raj Aryan)
  
- apktool 
+* apktool 
  
- Java (hax4us)
+* Java (hax4us)
  
 # Error Solve
 ```
