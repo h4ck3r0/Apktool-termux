@@ -74,13 +74,13 @@
 # Error Solve
 
 ```
-•If u using android 8+
+• If u using android 8+
 
-•U get java error
+• U get java error
 
-•So type proot -0
+• So type proot -0
 
-•Then run apktool
+• Then run apktool
 ```
 ## CONNECT WITH US :
 
