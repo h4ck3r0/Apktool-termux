@@ -21,7 +21,7 @@
 <a href="https://github.com/h4ck3r0"><img title="Watching" src="https://img.shields.io/github/watchers/h4ck3r0/Apktool-termux?label=Watchers&color=blue&style=flat-square"></a>
 <a href="https://github.com/h4ck3r0"><img title="Licence" src="https://img.shields.io/badge/License-GNU-blue.svg"></a>
 </p>
-##
+
 
 ### Aapktool-termux
 
