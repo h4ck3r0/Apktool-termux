@@ -14,10 +14,12 @@
 <a href="https://youtu.be/VDeLnDxVziw"><img title="YouTube" src="https://img.shields.io/badge/YouTube-H4CK3R-red?style=for-the-badge&logo=Youtube"></a>
 </p>
 
+##
 
 ### Aapktool-termux
 
-* [-] Latest apktool 2.5.0 for Termux by H4Ck34
+
+* [-] Latest apktool 2.5.0 for Termux by H4Ck3R
 
 * [-] Version : 2.5.0 
 
