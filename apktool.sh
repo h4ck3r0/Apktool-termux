@@ -35,7 +35,7 @@ sh -c 'wget https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts
                                             read a
                                             case $a in
                                             1) Apktool ;;
-                                            2) Java ;;
+                                            2) Java (If apktool don't work );;
                                             3) exit ;;
                                             *) wr ;;
                                             esac
