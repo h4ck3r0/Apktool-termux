@@ -35,7 +35,7 @@ sh -c 'wget https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts
                                             read a
                                             case $a in
                                             1) Apktool ;;
-                                            2) Java (If apktool don't work );;
+                                            2) Java ;;
                                             3) exit ;;
                                             *) wr ;;
                                             esac
@@ -44,7 +44,7 @@ sh -c 'wget https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts
                   menu () {
                                   banner
                                   printf "\n\033[1;91m[\033[0m1\033[1;91m]\033[1;92m Apktool \n"
-                                  printf "\033[1;91m[\033[0m2\033[1;91m]\033[1;92m Java \n"
+                                  printf "\033[1;91m[\033[0m2\033[1;91m]\033[1;92m Java ( If Apktool Don't Work )\n"
                                   printf "\033[1;91m[\033[0m3\033[1;91m]\033[1;92m Exit\n\n\n"
                                   selection
                                   }
