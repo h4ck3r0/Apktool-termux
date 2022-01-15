@@ -19,9 +19,10 @@ echo -e "\e[1;34m[*] \e[32minstall packages....\e[0m";
                                           
                                                                                                 
 apt update && apt upgrade -y
+pkg install ruby -y
 pkg install toilet -y
-pip3 install gem
-gem install lolcat
+pip3 install gem -y
+gem install lolcat -y
 pkg install wget curl -y
 chmod +x setup.sh
 chmod +x apktool.sh
