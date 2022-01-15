@@ -12,7 +12,13 @@ banner ( ) {
                                }
                                Apktool() {
                                                  cd files
-                                                 apt install ./apktool1.deb
+                                                 export apktool_version=2.6.0
+
+sh -c 'wget https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_$apktool_version.jar -O $PREFIX/bin/apktool.jar'
+
+chmod +r $PREFIX/bin/apktool.jar
+
+sh -c 'wget https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool -O $PREFIX/bin/apktool' && chmod +x $PREFIX/bin/apktool
                                                  
                                                  cd ~/Apktool-termux ; bash apktool.sh
                                                  
