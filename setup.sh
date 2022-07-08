@@ -22,8 +22,8 @@ apt update && apt upgrade -y
 pkg install ruby python python2 -y
 pkg install toilet -y
 pkg install openjdk-17 -y
-pip3 install gem -y
-gem install lolcat -y
+pip3 install gem
+gem install lolcat
 pkg install wget curl -y
 chmod +x setup.sh
 chmod +x apktool.sh
