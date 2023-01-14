@@ -26,7 +26,7 @@
 ### Aapktool-termux
 
 
-* [-] Latest apktool 2.6.1 for Termux by H4Ck3R
+* [-] Latest apktool 2.7.0 for Termux by H4Ck3R
 
 * [-] Version : 2.7.0
 
