@@ -28,7 +28,7 @@
 
 * [-] Latest apktool 2.6.1 for Termux by H4Ck3R
 
-* [-] Version : 2.6.1 
+* [-] Version : 2.7.0
 
 
 ### AVAILABLE ON :
