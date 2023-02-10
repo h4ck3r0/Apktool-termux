@@ -23,7 +23,7 @@
 </p>
 
 
-### Aapktool-termux
+### Apktool-termux
 
 
 * [-] Latest apktool 2.7.0 for Termux by H4Ck3R
@@ -62,6 +62,7 @@
 [+]-- Open new session in termux and Type apktool
 ```
 
+## [Read More](https://h4ck3r.me/how-to-install-apktool-in-termux-without-error/) 
 
 # Credit
 
