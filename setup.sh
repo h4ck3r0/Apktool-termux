@@ -32,4 +32,4 @@ chmod +x java.sh
 
 echo -e "\e[1;34m[√] \e[96mNow run bash apktool.sh \e[0m"
 
-termux-open-url https://h4ck3r.me/how-to-install-apktool-in-termux-without-error/
+termux-open-url https://www.google.com/search?q=How%20to%20install%20apktool%20in%20termux%20site%3Ah4ck3r.me
