@@ -70,7 +70,7 @@ More Uses : [Click Here](https://www.google.com/search?q=how%2Dto%2Dinstall%2Dap
  
 * apktool 
  
-* Java (hax4us)
+* Java
  
 ## Error Solve
 
