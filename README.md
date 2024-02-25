@@ -62,8 +62,8 @@
 [+]-- Open new session in termux and Type apktool
 ```
 
-## [Read More](https://www.google.com/search?q=how%2Dto%2Dinstall%2Dapktool%2Din%2Dtermux%2Dwithout%2Derror+site%3Ah4ck3r%2Eme) 
-More Uses : [Click Here](https://www.google.com/search?q=how%2Dto%2Dinstall%2Dapktool%2Din%2Dtermux%2Dwithout%2Derror+site%3Ah4ck3r%2Eme)
+## [Read More](https://www.h4ck3r.me/how-to-install-apktool-in-termux/) 
+More Uses : [Click Here](https://www.h4ck3r.me/the-power-of-apktool-apktool-usage/)
 ## Credit
 
 * Script by H4Ck34 (Raj Aryan)
