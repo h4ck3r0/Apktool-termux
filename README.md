@@ -1,4 +1,4 @@
-<p align="center">
+I <p align="center">
 <a href="https://h4ck3r0.github.io/"><img title="Made in INDIA" src="https://img.shields.io/badge/MADE%20IN-INDIA-SCRIPT?colorA=%23ff8100&colorB=%23017e40&colorC=%23ff0000&style=for-the-badge"></a>
 </p>
 <p align="center">
@@ -62,7 +62,7 @@
 [+]-- Open new session in termux and Type apktool
 ```
 
-## [Read More](https://www.h4ck3r.me/how-to-install-apktool-in-termux/) 
+## [Full Installation](https://www.google.com/search?q=How%20to%20install%20apktool%20in%20termux%20site%3Ah4ck3r.me) 
 More Uses : [Click Here](https://www.h4ck3r.me/the-power-of-apktool-apktool-usage/)
 ## Credit
 
