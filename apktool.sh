@@ -12,7 +12,7 @@ banner ( ) {
                                }
                                Apktool() {
                                                  cd files
-                                                 export apktool_version=2.9.3
+                                                 export apktool_version=2.11.0
 
 sh -c 'wget https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_$apktool_version.jar -O $PREFIX/bin/apktool.jar'
 
