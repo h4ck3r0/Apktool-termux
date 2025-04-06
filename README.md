@@ -75,9 +75,9 @@ More Uses : [Click Here](https://www.h4ck3r.me/the-power-of-apktool-apktool-usag
 ## Error Solve
 
 ```
-• If u using android 8+
+• If You Are Using Android 8+
 
-• U get java error
+• You Will Get Java Error
 
 • So type proot -0
 
