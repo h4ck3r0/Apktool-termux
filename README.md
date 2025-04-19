@@ -3,7 +3,7 @@
 </p>
 <p align="center">
 <a href="https://h4ck3r0.github.io/"><img title="Made in INDIA" src="https://img.shields.io/badge/Tool-Apktool-green.svg?style=flat-square"></a>
-<a href="https://h4ck3r0.github.io/"><img title="Version" src="https://img.shields.io/badge/Version-2.11.1Maintainedaintainedaintained-green.svg?style=flat-square"></a>
+<a href="https://h4ck3r0.github.io/"><img title="Version" src="https://img.shields.io/badge/Version-2.11.1Maintained-green.svg?style=flat-square"></a>
 <a href="https://h4ck3r0.github.io/"><img title="Maintainence" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square"></a>
 </p>
 <p align="center">
