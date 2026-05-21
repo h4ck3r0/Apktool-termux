@@ -50,7 +50,7 @@ Copy and paste the following commands into your Termux terminal:
 ```bash
 apt-get update -y && apt-get upgrade -y
 pkg install git -y
-git clone [https://github.com/h4ck3r0/Apktool-termux](https://github.com/h4ck3r0/Apktool-termux)
+git clone https://github.com/h4ck3r0/Apktool-termux
 cd Apktool-termux
 chmod +x *
 bash setup.sh
