@@ -8,7 +8,7 @@ CYAN='\033[1;96m'
 RESET='\033[0m'
 
 INSTALL_DIR="$PREFIX/bin"
-WORK_DIR="$HOME/Apktool-termux/files"
+WORK_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/files"
 
 
 banner() {
@@ -26,11 +26,22 @@ banner() {
 
 check_dependencies() {
     echo -e "${BLUE}[*] Checking dependencies...${RESET}"
-    deps=("wget" "curl" "java" "toilet" "lolcat")
+    
+    # Map command names to packages
+    declare -A pkg_map
+    pkg_map[wget]="wget"
+    pkg_map[curl]="curl"
+    pkg_map[java]="openjdk-17"
+    pkg_map[toilet]="toilet"
+    pkg_map[lolcat]="lolcat"
+    pkg_map[aapt]="aapt"
+
+    deps=("wget" "curl" "java" "toilet" "lolcat" "aapt")
     for dep in "${deps[@]}"; do
         if ! command -v "$dep" >/dev/null; then
-            echo -e "${YELLOW}[!] Installing missing dependency: $dep${RESET}"
-            pkg install "$dep" -y > /dev/null 2>&1
+            pkg_name="${pkg_map[$dep]}"
+            echo -e "${YELLOW}[!] Installing missing dependency: $pkg_name...${RESET}"
+            pkg install "$pkg_name" -y > /dev/null 2>&1
         fi
     done
     echo -e "${GREEN}[+] Dependencies are ready.${RESET}"
@@ -74,26 +85,29 @@ install_apktool() {
     wget -q "https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool" -O "$INSTALL_DIR/apktool"
     chmod +x "$INSTALL_DIR/apktool"
 
+    # Patch shebang for Termux environments
+    if [ -f "$INSTALL_DIR/apktool" ]; then
+        echo -e "${BLUE}[*] Patching shebang for Termux...${RESET}"
+        sed -i "1s|^#!/bin/bash|#!$PREFIX/bin/bash|" "$INSTALL_DIR/apktool"
+    fi
+
     echo -e "${GREEN}[+] Installation Complete!${RESET}"
     
     echo -e "${BLUE}[*] Verifying installation...${RESET}"
     apktool -version
     
-    termux-open-url https://h4ck3r.me/
+    echo
+    read -p "Would you like to open the website (h4ck3r.me) in your browser? (y/N): " -n 1 -r
+    echo
+    if [[ $REPLY =~ ^[Yy]$ ]]; then
+        termux-open-url https://h4ck3r.me/
+    fi
     pause_prompt
 }
 
 install_java() {
-    echo -e "\n${BLUE}[*] Initiating Java Installation...${RESET}"
-    cd "$WORK_DIR" || mkdir -p "$WORK_DIR"
-    
-    if [ -f "java.sh" ]; then
-        bash java.sh
-    else
-        echo -e "${RED}[!] java.sh not found in $WORK_DIR${RESET}"
-        echo -e "${YELLOW}[*] Attempting standard OpenJDK install...${RESET}"
-        pkg install openjdk-17 -y
-    fi
+    echo -e "\n${BLUE}[*] Installing OpenJDK 17 (recommended)...${RESET}"
+    pkg install openjdk-17 -y
     
     echo -e "${GREEN}[+] Java setup attempt finished.${RESET}"
     pause_prompt

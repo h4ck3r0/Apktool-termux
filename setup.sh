@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 clear
 
 RED="\e[31m"
@@ -15,21 +17,29 @@ echo -e "${RED}░  ░  ░     ░    ░       ░░░ ░ ░ ░░      
 echo -e "${RED}     ░     ░  ░           ░           ${ENDCOLOR}   " 
                                           
 echo  ""                                          
-echo -e "\e[1;34m[*] \e[32mInstalling Packages....\e[0m";                                       
+echo -e "\e[1;34m[*] \e[32mInstalling Packages....\e[0m"
                                           
-                                                                                                
-apt update && apt upgrade -y
-pkg install ruby python python2 -y
-pkg install toilet -y
-pkg install openjdk-17 -y
-pip3 install gem
-gem install lolcat
-pkg install wget curl -y
-chmod +x setup.sh
-chmod +x apktool.sh
-cd ~/Apktool-termux/files
-chmod +x java.sh
+# Update and install required dependencies natively
+pkg update -y
+pkg install openjdk-17 toilet lolcat aapt wget curl -y
+
+# Get current script directory dynamically
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# Fix executable permissions for script files
+chmod +x "$SCRIPT_DIR/setup.sh"
+chmod +x "$SCRIPT_DIR/apktool.sh"
+chmod +x "$SCRIPT_DIR/files/java.sh"
+
+cd "$SCRIPT_DIR/files" || exit 1
 
 echo -e "\e[1;34m[√] \e[96mNow run bash apktool.sh \e[0m"
 
-termux-open-url https://www.google.com/search?q=How%20to%20install%20apktool%20in%20termux%20site%3Ah4ck3r.me
+echo -e "\n\e[1;34m[*] \e[32mFor guides and usage info, visit:\e[0m \e[4;96mhttps://www.h4ck3r.me/how-to-install-apktool-in-termux/\e[0m\n"
+
+read -p "Would you like to open the installation guide in your browser? (y/N): " -n 1 -r
+echo
+if [[ $REPLY =~ ^[Yy]$ ]]; then
+    termux-open-url "https://www.google.com/search?q=How%20to%20install%20apktool%20in%20termux%20site%3Ah4ck3r.me"
+fi
+
